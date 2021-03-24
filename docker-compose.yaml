@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    image: fajohann/codeeducation:latest      
+    container_name: app    
+    volumes:
+      - .:/go/src       
+  
